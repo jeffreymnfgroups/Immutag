@@ -2,9 +2,9 @@ import Link from "next/link";
 import { TButtonProps } from "@/types";
 import { ArrowUpRight } from "lucide-react";
 
-export default function Button({ href, title }: TButtonProps) {
+export default function Button({ href, title, className }: TButtonProps) {
 	return (
-		<div className="flex flex-col pb-[10px] w-fit">
+		<div className={`flex flex-col pb-[10px] w-fit${className ? ` ${className}` : ""}`}>
 			<div className="flex items-center gap-[5px] group">
 				<div className="rounded-[50px] border border-[#21212199] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
 					<Link
