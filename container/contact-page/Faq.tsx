@@ -1,11 +1,21 @@
 "use client";
 import { useState } from "react";
-import { FaqItems, clientsItem } from "@/constants";
+import { FaqItems } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
 
+type FaqItem = {
+  id: number;
+  question: string;
+  title: string;
+  description: string;
+  links: Array<{ id: number; title: string; description: string }> | [];
+  button: string;
+};
+
 export default function Faq() {
-	const [activeAccordion, setActiveAccordion] = useState(FaqItems[0].id);
-		const toggleAccordion = (itemId: any) => {
+	const faqItems = FaqItems as FaqItem[];
+	const [activeAccordion, setActiveAccordion] = useState<number | null>(faqItems[0].id);
+		const toggleAccordion = (itemId: number) => {
 		setActiveAccordion((prev) => (prev === itemId ? null : itemId));
 	};
 
@@ -15,7 +25,7 @@ export default function Faq() {
 				A few things you <br />
 				may want to ask us:
 			</h1>
-			{FaqItems.map((item) => (
+			{faqItems.map((item) => (
 				<div
 					key={item.id}
 					className={`w-full flex py-[10px] flex-col ${
