@@ -1,15 +1,15 @@
-import { projectItem } from "@/constants";
+import { supportedDevicesItem } from "@/constants";
 import { Heading, ProjectCard, RoundButton, Tags } from "@/components";
 
 export default function Projects() {
 	return (
 		<section className="w-full rounded-t-[20px]">
 			<Heading
-				title="Featured projects"
+				title="Supported Devices"
 				className="padding-x padding-y pb-[50px] border-b border-[#21212155]"
 			/>
 			<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
-				{projectItem.map((item) => (
+				{supportedDevicesItem.map((item) => (
 					<div
 						className="w-[49%] sm:w-full xm:w-full"
 						key={item.id}>
@@ -19,19 +19,11 @@ export default function Projects() {
 								{item.title}
 							</h1>
 						</div>
-						<ProjectCard
-							item={item}
-							key={item.id}
-						/>
-						<div className="flex items-center gap-[10px] mt-[20px] flex-wrap">
-							{item.links.map((link) => (
-								<Tags
-									className="hover:text-white"
-									bgcolor="#212121"
-									item={link}
-									key={link.id}
-								/>
-							))}
+						<div className="bg-gray-100 rounded-[15px] p-[40px] h-[300px] flex flex-col items-center justify-center">
+							<div className="text-[60px] mb-[20px]">{item.icon}</div>
+							<p className="paragraph font-NeueMontreal text-secondry text-center">
+								{item.description}
+							</p>
 						</div>
 					</div>
 				))}
@@ -39,8 +31,8 @@ export default function Projects() {
 			<div className="w-full flex justify-center">
 				<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 					<RoundButton
-						href="/presentation"
-						title="view all case studies"
+						href="/how-it-works"
+						title="Learn How It Works"
 						bgcolor="#000"
 						className="bg-white text-black"
 						style={{ color: "#fff" }}

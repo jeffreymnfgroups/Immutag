@@ -1,30 +1,30 @@
-import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, nestle, officevibe, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, publication1, publication2, publication3 } from "@/public";
+import { immutag } from "@/public";
 
 // Navbar
 export const navbarItems = [
    {
       id: 1,
-      title: "Services",
-      href: "/services",
+      title: "How It Works",
+      href: "/how-it-works",
    },
    {
       id: 2,
-      title: "Our work",
-      href: "/presentation",
+      title: "About Us",
+      href: "/about",
    },
    {
       id: 3,
-      title: "About us",
-      href: "/ochi-team",
+      title: "Roadmap",
+      href: "/roadmap",
    },
    {
       id: 4,
-      title: "Insights",
-      href: "/insights",
+      title: "Whitepaper",
+      href: "/whitepaper",
    },
    {
       id: 5,
-      title: "Contact us",
+      title: "Contact Us",
       href: "/contact",
    },
 ];
@@ -34,23 +34,23 @@ export const navbarItems = [
 export const footerItems = [
    {
       id: 1,
-      title: "Instagram",
-      href: "https://www.instagram.com/",
+      title: "Twitter",
+      href: "https://twitter.com/immutag",
    },
    {
       id: 2,
-      title: "Behance",
-      href: "https://www.behance.com/",
+      title: "LinkedIn",
+      href: "https://linkedin.com/company/immutag",
    },
    {
       id: 3,
-      title: "Facebook",
-      href: "https://www.facebook.com/",
+      title: "Telegram",
+      href: "https://t.me/immutag",
    },
    {
       id: 4,
-      title: "Linkedin",
-      href: "https://www.linkedin.com/",
+      title: "Discord",
+      href: "https://discord.gg/immutag",
    },
 ];
 
@@ -62,364 +62,138 @@ export const footernavbarItems = [
    },
    {
       id: 2,
-      title: "Services",
-      href: "services",
+      title: "How It Works",
+      href: "/how-it-works",
    },
    {
       id: 3,
-      title: "Our work",
-      href: "presentation",
+      title: "About Us",
+      href: "/about",
    },
    {
       id: 4,
-      title: "About us",
-      href: "ochi-team",
+      title: "Roadmap",
+      href: "/roadmap",
    },
    {
       id: 5,
-      title: "Insights",
-      href: "insights",
+      title: "Whitepaper",
+      href: "/whitepaper",
    },
    {
       id: 6,
-      title: "Contact us",
-      href: "contact",
+      title: "Contact Us",
+      href: "/contact",
    },
 ];
 
-export const clientsItem = [
+export const featuresItem = [
    {
       id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
-      title: "Services:",
-      name: "William Barnes",
-      src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "/services",
-         },
+      title: "Proven Ownership",
+      description: "Your tag is linked to a blockchain-verified NFT, providing irrefutable proof of ownership.",
+      icon: "🔐"
+   },
+   {
+      id: 2,
+      title: "Theft Deterrent",
+      description: "Harder for thieves to profit from stolen goods with blockchain verification.",
+      icon: "🛡️"
+   },
+   {
+      id: 3,
+      title: "Faster Insurance Claims",
+      description: "Verifiable history speeds up insurance payouts and claim processing.",
+      icon: "⚡"
+   },
+   {
+      id: 4,
+      title: "Simplified Transfers",
+      description: "Sell or gift your item with digital proof of ownership transfer.",
+      icon: "🔄"
+   },
+   {
+      id: 5,
+      title: "Law Enforcement Integration",
+      description: "Streamlined checks for stolen assets with law enforcement agencies.",
+      icon: "👮"
+   },
+
+];
+
+export const supportedDevicesItem = [
+   {
+      id: 1,
+      title: "Smartphones",
+      description: "Secure your mobile devices with blockchain verification",
+      icon: "📱"
+   },
+   {
+      id: 2,
+      title: "Laptops",
+      description: "Protect your computers and portable devices",
+      icon: "💻"
+   },
+   {
+      id: 3,
+      title: "E-bikes",
+      description: "Secure electric bikes and scooters",
+      icon: "🚴"
+   },
+   {
+      id: 4,
+      title: "Smartwatches",
+      description: "Protect wearable technology and accessories",
+      icon: "⌚"
+   },
+];
+
+export const roadmapItems = [
+   {
+      id: 1,
+      phase: "Completed",
+      title: "Foundation",
+      items: [
+         "LOX Network foundation established",
+         "Initial blockchain integration", 
+         "Partnerships with key manufacturers and insurers",
+         "Successful proof-of-concept deployment"
       ]
    },
    {
       id: 2,
-      website: "Planetly",
-      href: "https://www.planetly.com",
-      title: "Services:",
-      name: "Nina Walloch",
-      src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "big news deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 5,
-            title: "product presentation",
-            href: "/services",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "/services",
-         },
-         {
-            id: 7,
-            title: "startup pitch",
-            href: "/services",
-         },
+      phase: "Q3/Q4 2025",
+      title: "Beta Launch",
+      items: [
+         "Completion of Immutag rebranding",
+         "Token swap launch",
+         "Beta testing of mobile and web applications",
+         "Expansion of supported device categories"
       ]
    },
    {
       id: 3,
-      website: "Workiz Easy",
-      href: "https://www.workiz.com",
-      title: "Services:",
-      name: "Tormer levy",
-      src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
-      links: [
-         {
-            id: 1,
-            title: "compony presentation",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "onboarding presentation",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "policy deck and playbook",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "redesign",
-            href: "/services",
-         },
-         {
-            id: 5,
-            title: "sales deck",
-            href: "/services",
-         },
+      phase: "Q1/Q2 2026", 
+      title: "Official Launch",
+      items: [
+         "Official app launch",
+         "Global partnership announcements",
+         "Launch of developer APIs (immutag.link)",
+         "Enhanced law enforcement and insurance integrations"
       ]
    },
    {
       id: 4,
-      website: "Premium Blend",
-      href: "https://www.premium-blend.com",
-      title: "Services:",
-      name: "Elien Kim",
-      src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
-      links: [
-         {
-            id: 1,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "illustration",
-            href: "/services",
-         },
+      phase: "Future",
+      title: "Expansion",
+      items: [
+         "Introduction of AI-driven theft detection",
+         "Expansion into luxury goods and collectibles", 
+         "Continuous platform improvements based on user feedback",
+         "Establishment of a global DAO for governance"
       ]
-   },
-   {
-      id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
-      title: "Services:",
-      name: "Brendon Goss",
-      src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services:",
-      name: "Raff Labri",
-      src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
-      links: [
-         {
-            id: 1,
-            title: "branded template deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services:",
-      name: "Stefan Strohmer",
-      src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "product presentation",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 9,
-      website: "Trawa Energy",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "David Buddy",
-      src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
-      links: [
-         {
-            id: 1,
-            title: "branding",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "startup pitch",
-            href: "/services",
-         },
-      ]
-   },
-
+   }
 ];
-
-export const projectItem = [
-   {
-      id: 1,
-      title: "fyde",
-      href: "/case/",
-      src: project1,
-      links: [
-         {
-            id: 1,
-            title: "audit",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "copywriting",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "sales deck",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "slides design",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 2,
-      title: "vise",
-      href: "/case/",
-      src: project2,
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "compony presentation",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 3,
-      title: "trawa",
-      href: "/case/",
-      src: project3,
-      links: [
-         {
-            id: 1,
-            title: "brand identity",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "design research",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "investor deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 4,
-      title: "premiumblend",
-      href: "/case/",
-      src: project4,
-      links: [
-         {
-            id: 1,
-            title: "brand template",
-            href: "/services",
-         },
-      ]
-   },
-];
-
 
 // services page
 

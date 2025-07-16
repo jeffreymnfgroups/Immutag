@@ -1,5 +1,6 @@
 export { default as eyes } from './eyes.svg';
-export { default as logo } from './logo.svg';
+export { default as logo } from './immutag-logo.png';
+export { default as immutag } from './immutag-logo.png';
 export { default as mobileLogo } from './mobile-logo.png';
 export { default as awwwards } from './awwwards.svg';
 export { default as aboutImg } from './aboutImg.webp';

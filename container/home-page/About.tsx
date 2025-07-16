@@ -13,45 +13,42 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Ochi is a strategic partner for fast-grow­ing tech
-					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
+					Immutag is building a new standard in asset protection — combining
+					<br className="sm:hidden xm:hidden" /> blockchain technology with&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						raise funds,
+						physical tagging
 					</span>
-					&nbsp;sell prod­ucts, <br className="sm:hidden xm:hidden" />
+					&nbsp;to give you irrefutable <br className="sm:hidden xm:hidden" />
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						ex­plain com­plex ideas,
+						proof of ownership
 					</span>
-					&nbsp;and&nbsp;
-					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						hire great peo­ple.
-					</span>
+					&nbsp;for your most valuable devices.
 				</h2>
 			</div>
 			<div className="w-full border-y border-[#21212155] my-[50px] py-[20px]">
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
-							What you can expect?
+							How Immutag Works
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									We create tailored presentations to help you persuade your
-									colleagues, clients, or investors. Whether it’s live or
-									digital, delivered for one or a hundred people.
+									From smartphones and laptops to watches and e-bikes, Immutag 
+									links a tamper-proof tag on your device with a unique digital 
+									identity stored on the blockchain.
 								</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									We believe the mix of strategy and design (with a bit of
-									coffee) is what makes your message clear, convincing, and
-									captivating.
+									Once tagged, your item becomes verifiable, transferable, and 
+									harder to steal or resell. Reduce theft, streamline transfers, 
+									and gain peace of mind.
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
 								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-									S:
+									Follow Us:
 								</h1>
 								<div className="flex flex-col">
 									{footerItems.map((item) => (
@@ -59,7 +56,7 @@ export default function About() {
 											key={item.id}
 											className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
 											title={item.title}
-											href={"/"}
+											href={item.href}
 										/>
 									))}
 								</div>
@@ -70,14 +67,14 @@ export default function About() {
 			</div>
 			<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 				<div className="flex flex-col gap-[30px]">
-					<Heading title="Our approach:" />
+					<Heading title="Learn More:" />
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
 						<RoundButton
-							href="/ochi-team"
-							title="read more"
+							href="/how-it-works"
+							title="How It Works"
 							bgcolor="#000"
 							className="bg-white text-black"
 							style={{ color: "#fff" }}
