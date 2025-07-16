@@ -4,8 +4,8 @@ import { FaqItems, clientsItem } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Faq() {
-	const [activeAccordion, setActiveAccordion] = useState(clientsItem[0].id);
-	const toggleAccordion = (itemId: any) => {
+	const [activeAccordion, setActiveAccordion] = useState(FaqItems[0].id);
+		const toggleAccordion = (itemId: any) => {
 		setActiveAccordion((prev) => (prev === itemId ? null : itemId));
 	};
 

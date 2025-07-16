@@ -92,6 +92,19 @@ export default function Clients() {
 			<div className="padding-x pt-[80px]">
 				<Ratings />
 			</div>
+			<div className="padding-x pt-[40px]">
+				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry pb-[20px]">Trust in Technology</h2>
+				<p className="paragraph font-NeueMontreal text-secondry pb-[30px]">
+					We’re building with transparency, security, and compliance at the core. Your ownership record is encrypted, immutable, and verifiable — anytime, anywhere.
+				</p>
+				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry pb-[20px]">Stay Ahead of the Curve</h2>
+				<p className="paragraph font-NeueMontreal text-secondry pb-[20px]">
+					Be the first to protect what’s yours. Sign up below to get early access, news updates, and exclusive launch offers.
+				</p>
+				<div className="flex items-center justify-center bg-secondary cursor-pointer rounded-full w-fit px-4 py-2">
+				<Button href="/contact" title="Join the Waitlist" className="text-sm px-4 py-2" />
+				</div>
+			</div>
 		</section>
 	);
 }

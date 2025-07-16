@@ -49,13 +49,13 @@ export default function Hero() {
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
 							<div className="w-[50%] xm:w-full sm:w-full">
 								<p className="paragraph font-NeueMontreal text-secondry">
-									The future of secure ownership starts here
+									Immutag is building a new standard in asset protection — combining blockchain technology with physical tagging to give you irrefutable proof of ownership for your most valuable devices. From smartphones and laptops to watches and e-bikes, Immutag is designed to reduce theft, streamline transfers, and give peace of mind.
 								</p>
 							</div>
 							<div className="w-[50%] xm:w-full sm:w-full flex justify-between xm:flex-col xm:items-start sm:flex-col sm:items-start gap-[20px]">
 								<div>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										App coming soon – Join the waitlist
+										App coming soon – Join the waitlist and be the first to experience a smarter way to secure and verify ownership.
 									</p>
 								</div>
 								<div className="flex items-center gap-[5px] group">

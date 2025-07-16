@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 import { text, curve, translate } from "@/motion";
 
 const routes = {
-	"/": "Home",
-	"/services": "Services",
-	"/presentation": "Our Work",
-	"/ochi-team": "About Us",
-	"/insights": "Insights",
+	"/": "Welcome to Immutag",
+	"/how-it-works": "How It Works",
+	"/about": "About Us",
+	"/roadmap": "Roadmap",
+	"/whitepaper": "Whitepaper",
 	"/contact": "Contact Us",
 	"/case": "Workiz Easy",
 };

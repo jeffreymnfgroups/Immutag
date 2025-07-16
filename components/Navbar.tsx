@@ -31,9 +31,10 @@ export default function Navbar() {
 					<Link href={"/"}>
 						<Image
 							src={logo}
-							alt="ochi logo"
+							alt="immutag logo"
 							width={70}
 							height={70}
+							className="rounded-lg"
 						/>
 					</Link>
 				</div>

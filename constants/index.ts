@@ -1,5 +1,9 @@
-import { immutag } from "@/public";
-
+import { client01, client02, client03, client04, client05, client06, client07, client08, capaybilities1, capaybilities2, capaybilities3, capaybilities4, project1, project2, project3, project4, project5, project6, project7, project8, project9, publication1, publication2, publication3, insights1, insights2, insights3, latest1, latest2, planetly, officevibe, nestle } from "@/public";
+import phase1 from "@/public/phase1.png";
+import phase2 from "@/public/phase2.png";
+import phase3 from "@/public/phase3.png";
+import phase4 from "@/public/phase4.png";
+import phase5 from "@/public/phase5.png";
 // Navbar
 export const navbarItems = [
    {
@@ -91,29 +95,28 @@ export const featuresItem = [
    {
       id: 1,
       title: "Proven Ownership",
-      description: "Your tag is linked to a blockchain-verified NFT, providing irrefutable proof of ownership.",
+      description: "Your tag is linked to a blockchain-verified NFT.",
    },
    {
       id: 2,
       title: "Theft Deterrent",
-      description: "Harder for thieves to profit from stolen goods with blockchain verification.",
+      description: "Harder for thieves to profit from stolen goods.",
    },
    {
       id: 3,
       title: "Faster Insurance Claims",
-      description: "Verifiable history speeds up insurance payouts and claim processing.",
+      description: "Verifiable history speeds up payouts.",
    },
    {
       id: 4,
       title: "Simplified Transfers",
-      description: "Sell or gift your item with digital proof of ownership transfer.",
+      description: "Sell or gift your item with digital proof.",
    },
    {
       id: 5,
       title: "Law Enforcement Integration",
-      description: "Streamlined checks for stolen assets with law enforcement agencies.",
+      description: "Streamlined checks for stolen assets.",
    },
-
 ];
 
 export const supportedDevicesItem = [
@@ -136,6 +139,11 @@ export const supportedDevicesItem = [
       id: 4,
       title: "Smartwatches",
       description: "Protect wearable technology and accessories",
+   },
+   {
+      id: 5,
+      title: "More categories launching soon",
+      description: "Immutag is expanding to support additional device types.",
    },
 ];
 
@@ -231,226 +239,6 @@ export const serviceProcessItems = [
    },
 ];
 
-export const serviceClientsItem = [
-   {
-      id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
-      title: "Services:",
-      name: "William Barnes",
-      src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 2,
-      website: "Planetly",
-      href: "https://www.planetly.com",
-      title: "Services:",
-      name: "Nina Walloch",
-      src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "big news deck",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "branded template",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "investor deck",
-            href: "services",
-         },
-         {
-            id: 5,
-            title: "product presentation",
-            href: "services",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "services",
-         },
-         {
-            id: 7,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 3,
-      website: "Workiz Easy",
-      href: "https://www.workiz.com",
-      title: "Services:",
-      name: "Tormer levy",
-      src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
-      links: [
-         {
-            id: 1,
-            title: "compony presentation",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "onboarding presentation",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "policy deck and playbook",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "redesign",
-            href: "services",
-         },
-         {
-            id: 5,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 4,
-      website: "Premium Blend",
-      href: "https://www.premium-blend.com",
-      title: "Services:",
-      name: "Elien Kim",
-      src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
-      links: [
-         {
-            id: 1,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "illustration",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
-      title: "Services:",
-      name: "Brendon Goss",
-      src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services:",
-      name: "Raff Labri",
-      src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
-      links: [
-         {
-            id: 1,
-            title: "branded template deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services:",
-      name: "Stefan Strohmer",
-      src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "product presentation",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "review",
-            href: "services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-];
 
 export const serviceCapaybilitiesItem = [
    {
@@ -1017,103 +805,44 @@ export const aboutPartberItems = [
 // contact page constants
 
 export const FaqItems = [
-   {
-      id: 1,
-      question: "How many iterations the project includes?",
-      title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 2,
-      question: "Do you animate presentations?",
-      title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 3,
-      question: "Do you join forces with other agencies?",
-      title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 4,
-      question: "I want to become a part of the team! Do you hire?",
-      title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
-      title: "Description",
-      description: "The short answer is yes.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
-      title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
-      ],
-      button: "read"
-   },
+  {
+    id: 1,
+    question: "What is Immutag and how does it work?",
+    title: "Description",
+    description: "Immutag combines tamper-proof physical tags with blockchain technology to create a secure, verifiable record of ownership for your valuable devices. Each tag is linked to a unique digital identity on the blockchain, making your item easy to prove, transfer, or recover.",
+    links: [],
+    button: "read"
+  },
+  {
+    id: 2,
+    question: "Which devices can I protect with Immutag?",
+    title: "Description",
+    description: "Immutag currently supports smartphones, laptops, e-bikes, and smartwatches, with more categories launching soon.",
+    links: [],
+    button: "read"
+  },
+  {
+    id: 3,
+    question: "How does Immutag help prevent theft?",
+    title: "Description",
+    description: "Once tagged and registered, your device is much harder to resell or claim fraudulently. Law enforcement and insurers can verify ownership instantly, deterring theft and speeding up recovery.",
+    links: [],
+    button: "read"
+  },
+  {
+    id: 4,
+    question: "Can I transfer ownership if I sell or gift my device?",
+    title: "Description",
+    description: "Yes! Immutag makes it easy to transfer ownership securely through the app. The new owner will have a verifiable, blockchain-backed record.",
+    links: [],
+    button: "read"
+  },
+  {
+    id: 5,
+    question: "How do I join the waitlist or get support?",
+    title: "Description",
+    description: "You can join the waitlist or contact our team for support by emailing hello@immutag.com or using the form on this page.",
+    links: [],
+    button: "read"
+  },
 ];

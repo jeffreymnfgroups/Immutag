@@ -143,7 +143,7 @@ export default function Form() {
 						<RoundButton
 							bgcolor="#212121"
 							href="/"
-							title="send inquiry"
+							title="Join Waitlist"
 							className="bg-white text-black"
 							style={{ color: "#fff" }}
 						/>

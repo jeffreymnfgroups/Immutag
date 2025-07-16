@@ -29,21 +29,19 @@ export default function About() {
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
-							How Immutag Works
+							How It Works
 						</h3>
+						<ul className="list-disc ml-6 mt-4 text-secondry font-NeueMontreal">
+							<li>Tag your device</li>
+							<li>Register it securely</li>
+							<li>Prove, transfer, or recover ownership anytime</li>
+						</ul>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									From smartphones and laptops to watches and e-bikes, Immutag 
-									links a tamper-proof tag on your device with a unique digital 
-									identity stored on the blockchain.
-								</p>
-								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									Once tagged, your item becomes verifiable, transferable, and 
-									harder to steal or resell. Reduce theft, streamline transfers, 
-									and gain peace of mind.
+									Immutag links a tamper-proof tag on your device with a unique digital identity stored on the blockchain. Once tagged, your item becomes verifiable, transferable, and harder to steal or resell. Reduce theft, streamline transfers, and gain peace of mind.
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">

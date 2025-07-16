@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { Curve, Ready } from "@/components";
+import Image from "next/image";
 
 export default function HowItWorks() {
 	useEffect(() => {
@@ -59,19 +60,27 @@ export default function HowItWorks() {
 										Every item registered with Immutag receives a secure, tamper-proof physical tag containing a unique identifier. This tag links directly to an encrypted NFT on our blockchain network, creating a permanent digital record of ownership.
 									</p>
 								</div>
-								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center">
-									<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
-										<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
-									</div>
+								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center relative overflow-hidden">
+									<Image
+										src="/tagyourdevice.webp"
+										alt="Tag Your Device"
+										fill
+										style={{ objectFit: "cover" }}
+										className="rounded-[20px]"
+									/>
 								</div>
 							</div>
 
 							{/* Step 2 */}
 							<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[40px]">
-								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center sm:order-2 xm:order-2">
-									<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
-										<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
-									</div>
+								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center sm:order-2 xm:order-2 relative overflow-hidden">
+									<Image
+										src="/mobiledevice.webp"
+										alt="Register Ownership"
+										fill
+										style={{ objectFit: "cover" }}
+										className="rounded-[20px]"
+									/>
 								</div>
 								<div className="w-[40%] sm:w-full xm:w-full sm:order-1 xm:order-1">
 									<div className="flex items-center gap-[20px] mb-[30px]">
@@ -103,10 +112,14 @@ export default function HowItWorks() {
 										Your tagged item becomes secure against theft or unauthorised resale. Easily transfer ownership when you sell or gift an item, or swiftly report it as lost or stolen, alerting our global network instantly.
 									</p>
 								</div>
-								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center">
-									<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
-										<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
-									</div>
+								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center relative overflow-hidden">
+									<Image
+										src="/protected.webp"
+										alt="Manage and Protect"
+										fill
+										style={{ objectFit: "cover" }}
+										className="rounded-[20px]"
+									/>
 								</div>
 							</div>
 						</div>
@@ -138,10 +151,14 @@ export default function HowItWorks() {
 									</div>
 								</div>
 							</div>
-							<div className="w-[30%] sm:w-full xm:w-full bg-white rounded-[20px] h-[200px] flex items-center justify-center">
-								<div className="w-[60px] h-[60px] bg-about rounded-full flex items-center justify-center">
-									<div className="w-[30px] h-[30px] bg-secondry rounded-full" />
-								</div>
+							<div className="w-[30%] sm:w-full xm:w-full bg-white rounded-[20px] h-[200px] flex items-center justify-center relative overflow-hidden">
+								<Image
+									src="/protected.webp"
+									alt="Mobile Device"
+									fill
+									style={{ objectFit: "cover" }}
+									className="rounded-[20px]"
+								/>
 							</div>
 						</div>
 					</div>

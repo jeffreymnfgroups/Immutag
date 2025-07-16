@@ -32,7 +32,7 @@ export default function Whitepaper() {
 									</div>
 									<div className="w-[50%] sm:w-full xm:w-full">
 										<p className="sub-heading font-normal font-NeueMontreal text-secondry">
-											Our whitepaper provides an in-depth look into Immutag's technology, tokenomics, business model, and strategic roadmap.
+											Our whitepaper provides an in-depth look into Immutag&apos;s technology, tokenomics, business model, and strategic roadmap.
 										</p>
 									</div>
 								</div>
@@ -111,7 +111,7 @@ export default function Whitepaper() {
 									Download the Latest Version
 								</h3>
 								<p className="small-text font-NeueMontreal text-secondry text-center mb-[30px]">
-									Get comprehensive insights into Immutag's technology and vision
+									Get comprehensive insights into Immutag&apos;s technology and vision
 								</p>
 								<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 									<RoundButton

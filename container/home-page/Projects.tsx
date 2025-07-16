@@ -2,6 +2,13 @@ import { supportedDevicesItem } from "@/constants";
 import { Heading, ProjectCard, RoundButton, Tags } from "@/components";
 
 export default function Projects() {
+	const imageMap: Record<string, string> = {
+		Smartphones: "/mobile.webp",
+		Laptops: "/laptop.webp",
+		"E-bikes": "/electricbike.webp",
+		Smartwatches: "/wearable.webp",
+		"More categories launching soon": "/Otherdevices.webp",
+	};
 	return (
 		<section className="w-full rounded-t-[20px]">
 			<Heading
@@ -19,14 +26,14 @@ export default function Projects() {
 								{item.title}
 							</h1>
 						</div>
-						<div className="bg-gray-100 rounded-[15px] p-[40px] h-[300px] flex flex-col items-center justify-center">
-							<div className="w-[60px] h-[60px] bg-about rounded-full flex items-center justify-center mb-[20px]">
-								<div className="w-[30px] h-[30px] bg-secondry rounded-full" />
+						<div className="bg-gray-100 rounded-[15px] p-[40px] h-[300px] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${imageMap[item.title]})` }}>
+							{/* <div className="w-[60px] h-[60px] bg-about rounded-full flex items-center justify-center mb-[20px]"> */}
+								{/* <div className="w-[30px] h-[30px] bg-secondry rounded-full" /> */}
 							</div>
 							<p className="paragraph font-NeueMontreal text-secondry text-center">
 								{item.description}
 							</p>
-						</div>
+						{/* </div> */}
 					</div>
 				))}
 			</div>
