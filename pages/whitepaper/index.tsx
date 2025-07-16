@@ -46,7 +46,7 @@ export default function Whitepaper() {
 						<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[60px]">
 							<div className="w-[50%] sm:w-full xm:w-full">
 								<h2 className="sub-heading font-medium font-NeueMontreal text-secondry mb-[40px]">
-									What You'll Discover
+									What You&apos;ll Discover
 								</h2>
 								<div className="space-y-[30px]">
 									<div className="flex items-start gap-[20px]">

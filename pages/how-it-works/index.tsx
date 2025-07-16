@@ -92,7 +92,7 @@ export default function HowItWorks() {
 										</h2>
 									</div>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Using our platform (app coming soon), you'll securely register your tagged item, instantly verifying and confirming your ownership in a publicly verifiable but privacy-focused manner.
+										Using our platform (app coming soon), you&apos;ll securely register your tagged item, instantly verifying and confirming your ownership in a publicly verifiable but privacy-focused manner.
 									</p>
 								</div>
 							</div>
