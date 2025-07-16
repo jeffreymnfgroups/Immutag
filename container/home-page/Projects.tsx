@@ -20,7 +20,9 @@ export default function Projects() {
 							</h1>
 						</div>
 						<div className="bg-gray-100 rounded-[15px] p-[40px] h-[300px] flex flex-col items-center justify-center">
-							<div className="text-[60px] mb-[20px]">{item.icon}</div>
+							<div className="w-[60px] h-[60px] bg-about rounded-full flex items-center justify-center mb-[20px]">
+								<div className="w-[30px] h-[30px] bg-secondry rounded-full" />
+							</div>
 							<p className="paragraph font-NeueMontreal text-secondry text-center">
 								{item.description}
 							</p>

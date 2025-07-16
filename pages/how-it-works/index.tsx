@@ -60,14 +60,18 @@ export default function HowItWorks() {
 									</p>
 								</div>
 								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center">
-									<div className="text-[80px]">🏷️</div>
+									<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
+										<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
+									</div>
 								</div>
 							</div>
 
 							{/* Step 2 */}
 							<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[40px]">
 								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center sm:order-2 xm:order-2">
-									<div className="text-[80px]">📱</div>
+									<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
+										<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
+									</div>
 								</div>
 								<div className="w-[40%] sm:w-full xm:w-full sm:order-1 xm:order-1">
 									<div className="flex items-center gap-[20px] mb-[30px]">
@@ -100,7 +104,9 @@ export default function HowItWorks() {
 									</p>
 								</div>
 								<div className="w-[50%] sm:w-full xm:w-full bg-gray-100 rounded-[20px] h-[300px] flex items-center justify-center">
-									<div className="text-[80px]">🛡️</div>
+									<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
+										<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
+									</div>
 								</div>
 							</div>
 						</div>
@@ -133,7 +139,9 @@ export default function HowItWorks() {
 								</div>
 							</div>
 							<div className="w-[30%] sm:w-full xm:w-full bg-white rounded-[20px] h-[200px] flex items-center justify-center">
-								<div className="text-[60px]">⛓️</div>
+								<div className="w-[60px] h-[60px] bg-about rounded-full flex items-center justify-center">
+									<div className="w-[30px] h-[30px] bg-secondry rounded-full" />
+								</div>
 							</div>
 						</div>
 					</div>

@@ -51,7 +51,7 @@ export default function Whitepaper() {
 								<div className="space-y-[30px]">
 									<div className="flex items-start gap-[20px]">
 										<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center flex-shrink-0">
-											<span className="text-[20px]">🔧</span>
+											<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
 										</div>
 										<div>
 											<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[10px]">
@@ -64,7 +64,7 @@ export default function Whitepaper() {
 									</div>
 									<div className="flex items-start gap-[20px]">
 										<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center flex-shrink-0">
-											<span className="text-[20px]">💰</span>
+											<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
 										</div>
 										<div>
 											<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[10px]">
@@ -77,7 +77,7 @@ export default function Whitepaper() {
 									</div>
 									<div className="flex items-start gap-[20px]">
 										<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center flex-shrink-0">
-											<span className="text-[20px]">💼</span>
+											<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
 										</div>
 										<div>
 											<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[10px]">
@@ -90,7 +90,7 @@ export default function Whitepaper() {
 									</div>
 									<div className="flex items-start gap-[20px]">
 										<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center flex-shrink-0">
-											<span className="text-[20px]">🗺️</span>
+											<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
 										</div>
 										<div>
 											<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[10px]">
@@ -104,7 +104,9 @@ export default function Whitepaper() {
 								</div>
 							</div>
 							<div className="w-[40%] sm:w-full xm:w-full bg-white rounded-[20px] p-[40px] flex flex-col items-center justify-center">
-								<div className="text-[80px] mb-[30px]">📄</div>
+								<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center mb-[30px]">
+									<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
+								</div>
 								<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[20px] text-center">
 									Download the Latest Version
 								</h3>

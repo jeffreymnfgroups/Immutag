@@ -76,7 +76,9 @@ export default function About() {
 								</p>
 							</div>
 							<div className="w-[40%] sm:w-full xm:w-full bg-white rounded-[20px] h-[300px] flex items-center justify-center">
-								<div className="text-[80px]">👥</div>
+								<div className="w-[80px] h-[80px] bg-about rounded-full flex items-center justify-center">
+									<div className="w-[40px] h-[40px] bg-secondry rounded-full" />
+								</div>
 							</div>
 						</div>
 					</div>
@@ -89,7 +91,9 @@ export default function About() {
 						</h2>
 						<div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
 							<div className="bg-white rounded-[20px] p-[30px] text-center">
-								<div className="text-[40px] mb-[20px]">🔒</div>
+								<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center mb-[20px] mx-auto">
+									<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
+								</div>
 								<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[15px]">
 									Security First
 								</h3>
@@ -98,7 +102,9 @@ export default function About() {
 								</p>
 							</div>
 							<div className="bg-white rounded-[20px] p-[30px] text-center">
-								<div className="text-[40px] mb-[20px]">⛓️</div>
+								<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center mb-[20px] mx-auto">
+									<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
+								</div>
 								<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[15px]">
 									Blockchain Powered
 								</h3>
@@ -107,7 +113,9 @@ export default function About() {
 								</p>
 							</div>
 							<div className="bg-white rounded-[20px] p-[30px] text-center">
-								<div className="text-[40px] mb-[20px]">🌍</div>
+								<div className="w-[40px] h-[40px] bg-about rounded-full flex items-center justify-center mb-[20px] mx-auto">
+									<div className="w-[20px] h-[20px] bg-secondry rounded-full" />
+								</div>
 								<h3 className="paragraph font-medium font-NeueMontreal text-secondry mb-[15px]">
 									Global Network
 								</h3>

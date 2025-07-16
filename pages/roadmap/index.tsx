@@ -54,11 +54,7 @@ export default function Roadmap() {
 												item.phase.includes("2025") ? "bg-blue-500" :
 												item.phase.includes("2026") ? "bg-orange-500" : "bg-gray-400"
 											}`}>
-												<span className="text-[20px] font-bold text-white">
-													{item.phase === "Completed" ? "✓" : 
-													 item.phase.includes("2025") ? "⏳" :
-													 item.phase.includes("2026") ? "🚀" : "🔮"}
-												</span>
+												<div className="w-[30px] h-[30px] bg-white rounded-full" />
 											</div>
 											<div>
 												<h3 className="paragraph font-medium font-NeueMontreal text-secondry">

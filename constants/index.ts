@@ -92,31 +92,26 @@ export const featuresItem = [
       id: 1,
       title: "Proven Ownership",
       description: "Your tag is linked to a blockchain-verified NFT, providing irrefutable proof of ownership.",
-      icon: "🔐"
    },
    {
       id: 2,
       title: "Theft Deterrent",
       description: "Harder for thieves to profit from stolen goods with blockchain verification.",
-      icon: "🛡️"
    },
    {
       id: 3,
       title: "Faster Insurance Claims",
       description: "Verifiable history speeds up insurance payouts and claim processing.",
-      icon: "⚡"
    },
    {
       id: 4,
       title: "Simplified Transfers",
       description: "Sell or gift your item with digital proof of ownership transfer.",
-      icon: "🔄"
    },
    {
       id: 5,
       title: "Law Enforcement Integration",
       description: "Streamlined checks for stolen assets with law enforcement agencies.",
-      icon: "👮"
    },
 
 ];
@@ -126,25 +121,21 @@ export const supportedDevicesItem = [
       id: 1,
       title: "Smartphones",
       description: "Secure your mobile devices with blockchain verification",
-      icon: "📱"
    },
    {
       id: 2,
       title: "Laptops",
       description: "Protect your computers and portable devices",
-      icon: "💻"
    },
    {
       id: 3,
       title: "E-bikes",
       description: "Secure electric bikes and scooters",
-      icon: "🚴"
    },
    {
       id: 4,
       title: "Smartwatches",
       description: "Protect wearable technology and accessories",
-      icon: "⌚"
    },
 ];
 

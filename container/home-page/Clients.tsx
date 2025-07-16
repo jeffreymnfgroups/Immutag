@@ -28,9 +28,7 @@ export default function Clients() {
 					<div className="w-full flex items-center justify-between py-[10px] padding-x">
 						<div className="w-[50%] flex items-center">
 							<div className="w-[40%] sm:w-auto xm:w-auto">
-								<span className="small-text font-normal font-NeueMontreal text-secondry">
-									{item.icon}
-								</span>
+								<div className="w-[8px] h-[8px] bg-secondry rounded-full" />
 							</div>
 							<div className="w-auto sm:hidden xm:hidden">
 								<motion.h3
