@@ -846,3 +846,33 @@ export const FaqItems = [
     button: "read"
   },
 ];
+
+// services page clients reviews (sample data)
+export const serviceClientsItem = [
+  {
+    id: 1,
+    website: "Client One",
+    href: "https://clientone.com",
+    title: "CEO, Client One",
+    name: "Alice Smith",
+    src: client01, // uses imported image
+    review: "Ochi delivered an outstanding presentation that exceeded our expectations. Highly recommended!",
+    links: [
+      { id: 1, title: "Case Study", href: "/case/clientone" },
+      { id: 2, title: "Website", href: "https://clientone.com" },
+    ],
+  },
+  {
+    id: 2,
+    website: "Client Two",
+    href: "https://clienttwo.com",
+    title: "CMO, Client Two",
+    name: "Bob Johnson",
+    src: client02,
+    review: "Professional, creative, and always on time. The best agency we've worked with!",
+    links: [
+      { id: 1, title: "Case Study", href: "/case/clienttwo" },
+    ],
+  },
+  // Add more clients as needed
+];
